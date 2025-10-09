@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaimer's Image Map</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- 
+    
+    Codebase is uploaded to Github Repository - 10pts
+    Webpage is live on InfinityFree - 10pts
+    3 Files are present (index.html, style.css, image) - 5pts
+    all Links from image map work - 5pts
+    3 different types of area maps are used (rectangle, circle, and polygon) - 5pts
+    Each area map includes rel tag with appropriate value. - 15pts 
+    
+    -->
+</head>
+
+<body>
+    <header>
+        <div class="notepad-title">
+            <h1> Jaimer's Image Map</h1>
+            <p>
+                Explore the wonders of Purble Place, sporting three unique locations!<br>
+                Click on the "X" to return to the homepage.
+            </p>
+        </div>
+    </header>
+    <main>
+        <div class="image-map">
+            <img src="images/purble-place-map.jpg" alt="Purble Place Map" usemap="#image-map">
+            <map name="image-map">
+                <area rel="noopener" target="_blank" alt="School" title="Visit the School"
+                    href="https://en.wikipedia.org/wiki/School"
+                    coords="84,250,57,229,48,182,66,161,65,133,81,109,137,90,183,119,175,154,198,166,187,229,175,251,108,257"
+                    shape="poly">
+                <area rel="noopener" target="_blank" alt="Bakery" title="Visit the Bakery"
+                    href="https://en.wikipedia.org/wiki/Bakery"
+                    coords="254,327,251,276,238,222,246,208,235,160,258,150,265,175,292,171,295,187,322,182,336,167,348,177,363,171,378,179,400,180,413,201,400,286,365,320,305,327"
+                    shape="poly">
+                <area rel="noopener" target="_blank" alt="Tailor" title="Visit the Botique"
+                    href="https://en.wikipedia.org/wiki/Boutique"
+                    coords="519,303,517,251,504,248,504,223,514,221,513,188,549,179,563,152,586,149,605,173,623,162,641,168,650,185,720,204,720,226,715,234,707,276,688,292,674,318,606,332"
+                    shape="poly">
+                <area rel="noopener" target="_self" alt="Homepage" title="Go to the Homepage" href="/index.html"
+                    coords="55,379,39,403,63,414,71,389,85,409,104,388,85,369,100,347,79,336,70,357,56,339,36,362"
+                    shape="poly">
+            </map>
+        </div>
+        <aside>
+            <blockquote>
+                <p>
+                    "Purble Place is more than just a game, it's an experience that has the power to change your life in
+                    the
+                    most unexpected ways. When I first stumbled upon this whimsical trio of mini-games nestled in my
+                    computer's entertainment section, I could never have predicted the profound impact it would have on
+                    my
+                    daily life, my mind, and even my spirit."<br>
+                    &mdash; Gabriel Fincham (Google Reviews)
+                </p>
+            </blockquote>
+        </aside>
+    </main>
+</body>
+
+</html>
